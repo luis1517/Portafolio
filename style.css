@@ -608,8 +608,8 @@
       }
   }
 
-    header .navigation a.active,
-    header .navigation a:hover{
+    header .navigation a:hover,
+    header.sticky .navigation a:hover{
       background: #aa21af;
       color: #fff;
       transition: 0.3s ease;
